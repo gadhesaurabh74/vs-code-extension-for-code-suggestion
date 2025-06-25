@@ -151,17 +151,13 @@ vscode-gemini-chat/
 
 ## 🧑‍💻 Author
 
-Made with ❤️ by **[Your Name]**
+Made with ❤️ by **Saurabh Gadhe**
 
-- GitHub: [github.com/your-username](https://github.com/your-username)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
+- GitHub: [github.com/gadhesaurabh74]((https://github.com/gadhesaurabh74))
+- LinkedIn: [@Saurabh Gadhe]((https://www.linkedin.com/in/saurabh-gadhe-58632525b/))
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
 
 ---
 

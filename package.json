@@ -1,0 +1,41 @@
+{
+  "name": "vscode-chat-ai",
+  "displayName": "vscode-chat-ai",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "activationEvents": [
+    "onCommand:vscode-chat-ai.openChat"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-chat-ai.openChat",
+        "title": "Open Chat Assistant"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -w -p .",
+    "build-ui": "cd react-ui && npm run build && copyfiles -u 1 dist/**/* ../media"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.0.3",
+    "@types/node-fetch": "^2.6.12",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "@types/vscode": "^1.85.0",
+    "copyfiles": "^2.4.1",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^1.6.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.5.0",
+    "node-fetch": "^3.3.2",
+    "undici": "^6.21.3"
+  }
+}
